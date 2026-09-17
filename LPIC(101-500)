@@ -297,7 +297,7 @@ Answer: swapoff, /sbin/swapoff
 
 Q44. Which Debian package management tool asks the configuration questions for a specific already installed package just as if the package 
 were being installed for the first time? (Specify ONLY the command without any path or parameters.) FILL IN THE BLANK
-Answer: dpkgreconfigure
+Answer: dpkg-reconfigure
 
 Q45. Which of the following commands overwrites the bootloader located on /dev/sda without overwriting the partition table or any data following it?
 A. dd if=/dev/zero of=/dev/sda bs=512
@@ -1026,7 +1026,7 @@ B. r[oOoO]t-can-do*.txt
 C. {root,user,admin}-can-??-this.txt
 D. root*can*do??this.txt
 E. root***{can,may}-do-this.[tT][xX][tT]
-Answer: A,B,C
+Answer: A,C,E
 
 Q144. What command changes the nice level of a running process? (Specify ONLY the command without any path or parameters) FILL IN THE BLANK
 Answer: renice
@@ -1498,7 +1498,7 @@ of file content
 C. Hard links are specific to one filesystem and cannot point to files on another filesystem
 D. If users other than root should be able to create hard links, suln has to be installed and configured
 E. When a hard linked file is changed, a copy of the file is created and consumes additional space
-Answer: A
+Answer: C
 
 Q211. Which daemon handles power management events on a Linux system?
 A. acpid
@@ -1636,7 +1636,7 @@ B. Changes to the yum configuration become active after restarting the yumd serv
 C. The configuration of package repositories can be divided into multiple files
 D. Repository configurations can include variables such as $basearch or $releasever
 E. In case /etc/yum.repos.d/ contains files, /etc/yum.conf is ignored
-Answer: D,E
+Answer: C,D
 
 Q228. Which of the following apt-get subcommands installs the newest versions of all currently installed packages?
 A. auto-update
