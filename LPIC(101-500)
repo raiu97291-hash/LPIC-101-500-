@@ -3,8 +3,6 @@ LPIC-1 System Administrator - Exam 101, Part 1 of 2
 246 practice questions covering system architecture and boot, package management, GNU/Unix shell
 commands, and devices/filesystems.
 
-System Architecture & Boot Process
-
 Q1. Which SysV init configuration file should be modified to disable the ctrl-alt-delete key
 combination?
 A. /etc/keys
